@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es6",
     "lib": [
       "dom",
@@ -18,6 +19,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "types": ["node", "jest", "@testing-library/jest-dom"]
+  },
+  "typeAcquisition": {
+    "include": [
+        "jest"
+    ]
   },
   "include": [
     "next-env.d.ts",
